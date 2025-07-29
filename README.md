@@ -2,14 +2,14 @@ Code Judge - service that "judges" your code submission. When you submit a solut
 
 We will be understanding through Scaler example.
 
-##Situation
-###Q: What does the appserver need to evaluate a code submission?
+## Situation
+### Q: What does the appserver need to evaluate a code submission?
 1. User info (auth, already solved this problem or not, part of course or not, ..) 
 2. Problem info (topic, total score, memory limit, time limit, number of testcases, ..) 
 3. Testcase data (input file, expected output file)
 
 ###Q: How large can this data be (in the avg/worst case)?
-User info / Problem info - a few KBs **(SQL database - Amazon RDS)**. 
+User info / Problem info - a few KBs **(SQL database - Amazon RDS)**  
 Testcase data - 1 to 2 GBs **(File storage - Amazon S3)**
 
 For a problem we run your code through 100 testcases.   
