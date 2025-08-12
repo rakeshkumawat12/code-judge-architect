@@ -1,4 +1,4 @@
-#Code Judge
+# Code Judge
 
 Code Judge - service that "judges" your code submission. When you submit a solution for a DSA problem in any platform like Scaler, Leetcode, Codechef, GFG and many more. They have to take our code and run it through hundreds of testcases to evaluate whether it is correct or not.
 
